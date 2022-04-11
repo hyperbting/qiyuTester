@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: qvr_reticle
+  m_Shader: {fileID: 4800000, guid: af46dba3bc7641f448acc877f25f4f72, type: 3}
+  m_ShaderKeywords: _BIAOALPHA_CHUFA_ON _BIAO_CHUFA_ON _BIAO_TOUKUI_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5d25d43290eb2ee4e912b6565ebf8b19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 2800000, guid: 0ba93b8511c0bca4196698fb14c438b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_chufa:
+        m_Texture: {fileID: 2800000, guid: ac1be4a054289cd4185c46b99e58b031, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_moren:
+        m_Texture: {fileID: 2800000, guid: 4248247b7bf25c5469e71f284e016a78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6475:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _td:
+        m_Texture: {fileID: 2800000, guid: a5738f38ba44787488f682b59bb8a14e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _yuandian:
+        m_Texture: {fileID: 2800000, guid: 30ff7e4d28284964da42ede7dd5e41e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _yuandian_jz:
+        m_Texture: {fileID: 2800000, guid: 30ff7e4d28284964da42ede7dd5e41e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _biaoAlpha_chufa: 1
+    - _biao_chufa: 1
+    - _biao_toukui: 1
+    - _biao_toukui_01: 0
+    - _biao_toukui_02: 0
+    - _color01or02: 0
+    - _node_4976: 2.33
+    - _yuandian_rotator: 0
+    m_Colors:
+    - _Tex_color_01: {r: 1, g: 1, b: 1, a: 1}
+    - _Tex_color_02: {r: 0.4117647, g: 0.4509804, b: 0.9411765, a: 1}
+    - _node_8639: {r: 0, g: 0, b: 0, a: 1}
+    - _quan: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,26 @@
+{
+  "name": "com.qiyu.sdk.platform",
+  "displayName": "QIYU Platform SDK",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Provides platform interface support for QIYU devices.",
+  "keywords": [
+    "qiyu",
+    "xr",
+    "vr",
+    "virtual",
+    "xreditorsubsystem"
+  ],
+  "dependencies": {
+    "com.unity.xr.management": "3.2.16",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.nuget.newtonsoft-json":"2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "QIYU Platform Samples",
+      "description": "Samples for QIYU Platform SDK",
+      "path": "Samples~/Qiyu Platform Samples"
+    }
+  ]
+}
